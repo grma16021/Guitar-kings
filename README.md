@@ -1,2 +1,0 @@
-# Guitar kings
- School project

@@ -1,0 +1,86 @@
+@font-face {
+    font-family: test;
+    src: url(fonts/BootsAndSpurs.ttf);
+}
+
+@font-face {
+    font-family: roboto;
+    src: url(fonts/Roboto-Black.ttf);
+}
+nav{
+    background-color: #202020;
+    color: white;
+}
+
+nav a{
+   text-decoration: none;
+   color: white;
+}
+
+nav li{
+    display: inline;
+}
+
+.current {
+    font-weight: bold;
+}
+
+header a{
+    color: white;
+    
+}
+
+header,
+footer{
+    background-color: #202020;
+    color: #fff;
+}
+
+.welcome{
+    background-image: url(images/home-header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+    min-height: 70vh;
+}
+
+h1,
+h2,
+.logo{
+    font-family: test;
+}
+
+footer{
+    text-align: center;
+}
+
+#reviews{
+    background-color: #E8E8E8;
+}
+
+.cta{
+    background-color: red;
+    border-radius: 25px;
+}
+
+.cta-sale{
+    background-color: green;
+    border-radius: 100px;
+}
+
+.featured{
+    background-color: #FBFBFB;
+}
+
+main{
+    font-family: roboto;
+}
+
+.profile-pic{
+    border-radius: 50%;
+}
+
+#about-pic {
+    border-radius: 50px;
+}
